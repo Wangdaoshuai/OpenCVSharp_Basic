@@ -13,6 +13,9 @@
     <Compile Remove="Chapter3.cs" />
     <Compile Remove="Chapter4.cs" />
     <Compile Remove="Chapter5.cs" />
+    <Compile Remove="Chapter6.cs" />
+    <Compile Remove="Chapter7.cs" />
+    <Compile Remove="Chapter8.cs" />
   </ItemGroup>
 
   <ItemGroup>
