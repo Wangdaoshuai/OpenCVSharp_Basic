@@ -38,7 +38,7 @@ namespace Lesson_01
                 {
                     // Mat imgCrop = img(plates[i]); //C++中的写法
                     Mat imgCrop = new Mat(img, plates[i]); //截取图像
-                    Cv2.ImShow(i.ToString(), imgCrop);
+                    //Cv2.ImShow(i.ToString(), imgCrop);
                     Cv2.ImWrite("C:\\CodeLearning\\Lesson_01\\Lesson_01\\Resources\\plates\\" + i.ToString() + ".png", imgCrop);
 
                     Cv2.Rectangle(img, plates[i].TopLeft, plates[i].BottomRight, new Scalar(255, 0, 255), 3);
